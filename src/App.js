@@ -257,7 +257,7 @@ class App extends Component {
   // Routes to all the pages Components are linked to
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/robotrivia">
         <Route
           render={({location}) => (
             <div className="App">
